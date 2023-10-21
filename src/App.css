@@ -1,0 +1,15 @@
+::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #9c9c9c9f; /* Color de fondo de la pista de la barra de desplazamiento */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #952f9e; /* Color del "pulgón" de la barra de desplazamiento */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color del "pulgón" cuando se pasa el cursor por encima */
+  }
