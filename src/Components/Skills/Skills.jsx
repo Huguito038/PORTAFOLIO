@@ -21,47 +21,47 @@ const Skills = () => {
            <h2 className={stilo.titulo}>My Skills.</h2>
            <section className={stilo.cont_cards}>
             <div data-aos="flip-left"data-aos-delay="00">
-                <img src={html} alt="" />
+                <img className={stilo.imgs}src={html} alt="" />
                 <h2>html</h2>
             </div>
             <div data-aos="flip-left"data-aos-delay="100">
-                <img src={css} alt="" />
+                <img className={stilo.imgs}src={css} alt="" />
                 <h2>css</h2>
             </div>
             <div data-aos="flip-left"data-aos-delay="200">
-                <img src={java} alt="" />
+                <img className={stilo.imgs}src={java} alt="" />
                 <h2>JavaScript</h2>
             </div>
             <div data-aos="flip-left"data-aos-delay="300">
-                <img src={reactt} alt="" />
+                <img className={stilo.imgs}src={reactt} alt="" />
                 <h2>react js</h2>
             </div>
             <div data-aos="flip-left"data-aos-delay="400">
-                <img src={redux} alt="" />
+                <img className={stilo.imgs}src={redux} alt="" />
                 <h2>redux js</h2>
             </div>
             <div data-aos="flip-left"data-aos-delay="500">
-                <img src={node} alt="" />
+                <img className={stilo.imgs}src={node} alt="" />
                 <h2>node js</h2>
             </div>
             <div data-aos="flip-left"data-aos-delay="600">
-                <img src={express} alt="" />
+                <img className={stilo.imgs}src={express} alt="" />
                 <h2>express js</h2>
             </div>
             <div data-aos="flip-left"data-aos-delay="700">
-                <img src={mongodb} alt="" />
+                <img className={stilo.imgs}src={mongodb} alt="" />
                 <h2>mongo db</h2>
             </div>
             <div data-aos="flip-left"data-aos-delay="800">
-                <img src={postgress} alt="" />
+                <img className={stilo.imgs}src={postgress} alt="" />
                 <h2>postgres sql</h2>
             </div>
             <div data-aos="flip-left"data-aos-delay="900">
-                <img src={git} alt="" />
+                <img className={stilo.imgs}src={git} alt="" />
                 <h2>git</h2>
             </div>
             <div data-aos="flip-left"data-aos-delay="1000">
-                <img src={github} alt="" />
+                <img className={stilo.imgs}src={github} alt="" />
                 <h2>github</h2>
             </div>
 
