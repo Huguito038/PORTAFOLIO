@@ -19,7 +19,7 @@ const Principal = () => {
                         <a href="https://github.com/Huguito038"><img src={logo} alt=""></img></a>
                 </section>
              </div>
-             <div className={stilo.boton_cv}>
+             <div data-aos="flip-left"data-aos-delay="700"className={stilo.boton_cv}>
                 DESCARGAR CV
              </div>
             <div className={stilo.personaje}></div>
