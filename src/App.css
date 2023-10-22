@@ -13,3 +13,8 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555; /* Color del "pulgón" cuando se pasa el cursor por encima */
   }
+
+
+.conte{
+  overflow: hidden;
+}
