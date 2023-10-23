@@ -134,3 +134,22 @@
 
 
 
+@media (max-width: 800px) {
+  .hugo{
+    font-size: 14vw;
+  }
+  .saludo{
+    font-size: 3.3vw;
+  }
+  .boton_cv{
+    width: 40vw;
+    height: 7vw;
+    font-size: 3vw;
+  }
+  .lateral section img{
+    width: 6vw;
+   
+  }
+  
+
+}

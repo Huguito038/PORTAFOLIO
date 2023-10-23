@@ -32,3 +32,13 @@
 }
 
 
+@media (max-width: 800px) {
+    .contenedor a{
+        font-size: 1.4vw;
+    }
+    .contenedor{
+        width: 13vw;
+    }
+    
+  
+  }

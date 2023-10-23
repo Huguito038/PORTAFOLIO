@@ -95,3 +95,20 @@
 
 
 
+  @media (max-width: 800px) {
+    .cont_cards div{
+      width: 15vw;
+      height: 15vw;
+      border-radius: 30vw;
+      font-size: 0.6vw;
+    }
+    .titulo{
+      font-size: 10vw;
+    }
+    .imgs{
+      width: 7vw;
+      margin-top: 3.2vw;
+    }
+    
+  
+}

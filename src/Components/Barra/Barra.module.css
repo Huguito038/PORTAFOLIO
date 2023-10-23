@@ -3,8 +3,8 @@
 .contenedor{
     width: 100%;
     height: 100%;
+    padding-bottom: 10%;
     position: relative;
-
 }
 
 .titulo{
@@ -28,23 +28,29 @@
    
 }
 
-.barra{
-    margin-left: 42vw;
-    margin-top: -16%;
-    margin-bottom: 10vw;
-    width: 0.12vw;
-    height: 8.1vw;
-    background-color: #270b25cb;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
-   
-}
+
 
 .text{
-    width: 40vw;
+    width: 45vw;
     height: auto;
-    position: absolute;
-    top: 30.5vw;
-    font-size: 1.2vw;
-    left: 43vw;
+    margin-top: -15%;
+    padding-left: 2%;
+    border-left: 0.1vw solid #270b25cb;
+    font-size: 1.3vw;
+    margin-left: 43vw;
     font-family: 'Montserrat', sans-serif;
+}
+
+
+@media (max-width: 800px) {
+    .text{
+        font-size: 3vw;
+        width: 70%;
+        margin-left: 13vw;
+        margin-top: 5%;
+        border: none;
+        text-align: start;
+    }
+    
+  
 }
