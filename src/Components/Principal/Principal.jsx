@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css"; // Asegúrate de que la hoja de estilos se importe después de AOS
 import logo from "./github.png"
 import logo2 from "./linkedin.png"
+import CV from "./CV.pdf"
 
 const Principal = () => {
     AOS.init();
@@ -20,7 +21,7 @@ const Principal = () => {
                 </section>
              </div>
              <div data-aos="flip-left"data-aos-delay="700"className={stilo.boton_cv}>
-                DESCARGAR CV
+                <a href={CV}>DESCARGAR CV</a>
              </div>
             <div className={stilo.personaje}></div>
             
