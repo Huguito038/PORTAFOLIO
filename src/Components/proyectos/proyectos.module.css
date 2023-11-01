@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,300&display=swap');
 .contenedor{
     width: 100%;
-    height: auto;
+    height: 100%;
     position: relative;
+    overflow: hidden;
 
 }
 
@@ -167,10 +168,83 @@
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
     .titulo{
         font-size: 8vw;
     }
+    .img_proyect{
+        width: 100%;
+        margin-bottom: 6vh;
+    }
+    .img_proyect2{
+        width: 100%;
+        margin-bottom: 5vh;
+    }
+    .info{
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+    .info h2{
+        position: absolute;
+        top: -5.4vw;
+        margin: 0;
+        width: 100%;
+        font-size: 3.7vw;
+        left: -13.5vw;
+    }
+    .informacion{
+        display: none;
+    }
+    .logos{
+        position: absolute;
+        top: 35vw;
+        left: -35.5vw;
+        
+    }
+    .logos img{
+        width: 5.5vw;
+        margin-left: 5vw;
+        transition: none;
+    }
+    .info2{
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+    .info2 h2{
+        position: absolute;
+        top: -5.4vw;
+        margin: 0;
+        width: 100%;
+        font-size: 3.7vw;
+        left: -13.5vw;
+    }
+    .informacion2{
+        display: none;
+    }
+    .logos2{
+        position: absolute;
+        top: 35vw;
+        left: 22.8vw;
+        
+    }
+    .logos2 img{
+        width: 5.5vw;
+        margin-left: 3vw;
+        transition: none;
+    }
+
     
   
+}
+
+@media (max-width: 600px){
+    .logos img{
+        width: 7vw;
+    }
+    .logos2 img{
+        width: 7vw; 
+    }
+
 }

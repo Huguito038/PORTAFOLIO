@@ -32,13 +32,30 @@
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .contenedor a{
-        font-size: 1.4vw;
+        font-size: 1.7vw;
+        margin-left: 20px;
+        padding-top: 1.2vw;
+        margin-right: 20px;
     }
     .contenedor{
-        width: 13vw;
+        position: fixed;
+        overflow: hidden;
+        z-index: 9999;
+        background-color: rgba(177, 65, 199, 0.719);
+        border-radius: 0px 0 0 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        width: 100vw;
+        height: 8vw;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+        top: 0%;
     }
     
-  
+    
   }
+
+ 

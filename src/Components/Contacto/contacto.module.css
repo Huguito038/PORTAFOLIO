@@ -106,7 +106,42 @@
 
 }
 
-@media (max-width: 928px) {
+@media (max-width: 1100px) {
+  .titulo{
+    width: 100%;
+    font-size: 7vw;
+    margin-left: 0vw;
+    text-align: center;
+  }
+  .barra{
+    margin-top: -5vw;
+    margin-left: 7.5vw;
+    width: 85vw;
+    margin-bottom: 8vw;
+    height:0.1vw;
+    background-color: #85257ecb;
+    box-shadow: 0 8px 16px rgba(194, 194, 194, 0.8);
+}
+.contacto{
+  position: relative;
+  margin-top: -4vw;
+  display: flex;
+  margin-left: 7.5vw;
+  padding-bottom: 6vw;
+}
+
+.contacto div{
+  display:flex;
+  margin-top: 1vw;
+  text-align: left;
+  color: white;
+  margin-left: 6vw;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.4vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  align-items: center;
+}
+
  
   
 

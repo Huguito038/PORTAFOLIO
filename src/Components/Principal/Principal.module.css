@@ -41,7 +41,7 @@
 
 
 .personaje {
-    position: absolute; 
+    position: absolute;
     animation: x 0.5s infinite linear, caminar 10s linear infinite;
     bottom: 80px;
    }
@@ -137,22 +137,48 @@
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .hugo{
     font-size: 14vw;
+    margin-left: 13vw;
   }
   .saludo{
     font-size: 3.3vw;
+    margin-left: 13vw;
   }
   .boton_cv{
-    width: 40vw;
-    height: 7vw;
-    font-size: 3vw;
+    top: 16%;
+    width: 27vw;
+    height: 5vw;
+    font-size: 1.8vw;
   }
   .lateral section img{
-    width: 6vw;
+    width: 5vw;
    
+  }
+  .lateral{
+    top: 15%;
   }
   
 
+}
+
+@media( max-width: 505px){
+  .cont{
+    height: 85vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  .boton_cv{
+    width: 40vw;
+    top: 15%;
+    height: 10vw;
+    font-size: 3vw;
+  }
+  .lateral section img{
+    width: 8vw;
+  }
+  .lateral{
+    top: 14%;
+  }
 }
