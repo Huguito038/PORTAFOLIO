@@ -11,18 +11,15 @@ const Contacto = () => {
             <h2 className={stilo.titulo}>contact me.</h2>
             <div className={stilo.barra}></div>
             <div className={stilo.contacto}>
-                <div>
-                    <img src={mail} alt="" />
-                    <h2>hugosoler@hotmail.com</h2>
-                </div>
-                <div>
-                    <img src={link} alt="" />
-                    <h2>Hugo Soler</h2>
-                </div>
-                <div>
-                    <img src={whats} alt="" />
-                    <h2>+54-3541218866</h2>
-                </div>
+                <a href="mailto:hugosoler@hotmail.com" target='blank'>
+                    <button className={stilo.mail}><img src={mail} alt="" />MAIL ME</button>
+                </a>
+                <a href="https://wa.me/3541218866" target='blank'>
+                    <button className={stilo.whats}><img src={whats} alt="" />WHATSAPP</button>
+                </a>
+                <a href='https://www.linkedin.com/in/hugo-soler-69487a27a' target='blank'> 
+                    <button className={stilo.link}><img src={link} alt="" />LINKEDIN</button>
+                </a>
 
             </div>
             <div className={stilo.personaje}></div>

@@ -16,13 +16,14 @@ const Principal = () => {
              </div>
              <div className={stilo.lateral}>
                 <section data-aos="flip-left"data-aos-delay="700">
-                        <a href="https://www.linkedin.com/in/hugo-soler-69487a27a/"><img src={logo2} alt="" /></a> 
-                        <a href="https://github.com/Huguito038"><img src={logo} alt=""></img></a>
+                        <a href="https://www.linkedin.com/in/hugo-soler-69487a27a/"target="_blank"><img src={logo2} alt="" /></a> 
+                        <a href="https://github.com/Huguito038"target="_blank"><img src={logo} alt=""></img></a>
                 </section>
              </div>
+             <a target="_blank" href={CV} className={stilo.cv}>
              <div data-aos="flip-left"data-aos-delay="700"className={stilo.boton_cv}>
-                <a href={CV}>DESCARGAR CV</a>
-             </div>
+                DESCARGAR CV
+             </div></a>
             <div className={stilo.personaje}></div>
             
         </div>

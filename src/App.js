@@ -6,6 +6,7 @@ import Proyectos from './Components/proyectos/proyectos';
 import Contacto from './Components/Contacto/contacto';
 import { useRef } from 'react';
 import Buscador from './Components/buscador/buscador';
+import BarraRedes from './Components/BarraRedes/BarraRedes';
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
     }
   };
   return (
-    <div>
+    <div className='conte'>
       <Buscador scrollToSection={scrollToSection} barraRef={barraRef} skillsRef={skillsRef} proyectosRef={proyectosRef}contactoRef={contactoRef}homeRef={homeRef}></Buscador>
       <div ref={homeRef}>
         <Principal></Principal>
@@ -30,6 +31,7 @@ function App() {
       <div ref={barraRef}>
         <Barra></Barra>
       </div>
+      <BarraRedes></BarraRedes>
       <div ref={skillsRef}>
         <Skills></Skills>
       </div>

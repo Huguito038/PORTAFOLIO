@@ -4,6 +4,7 @@
     width: 100%;
     height: 100%;
     position: relative;
+
     overflow: hidden;
 
 }
@@ -11,8 +12,8 @@
 .titulo{
     font-family: 'Press Start 2P', cursive;
     font-size: 8vw;
-    margin-top: -4vw;
     width: 45%;
+    margin-top: -13vh;
     margin-left: 15vw;
     text-transform: uppercase;
     z-index: 999;
@@ -34,7 +35,7 @@
     z-index: 999;
     width: 70%;
     margin-bottom: 6vw;
-   margin-top: 5vw;
+   margin-top: 0vw;
 }
 
 .img_proyect{
@@ -87,7 +88,7 @@
     display: flex;
     flex-direction: column;
     align-items: center; 
-    margin-top: 10vw;
+    margin-top: 1vw;
 }
 
 .info{
@@ -171,14 +172,23 @@
 @media (max-width: 1100px) {
     .titulo{
         font-size: 8vw;
+        margin-top: -5vh;
+        margin-bottom: 10vh;
+    }
+    .proyecto{
+        display: flex;
+        z-index: 999;
+        width: 70%;
+        margin-bottom: 6vw;
+       margin-top: 5vh;
     }
     .img_proyect{
         width: 100%;
-        margin-bottom: 6vh;
+        margin-bottom: 10vh;
     }
     .img_proyect2{
         width: 100%;
-        margin-bottom: 5vh;
+        margin-bottom: 10vh;
     }
     .info{
         position: absolute;
@@ -199,8 +209,7 @@
     .logos{
         position: absolute;
         top: 35vw;
-        left: -35.5vw;
-        
+        left: -30.5vw; 
     }
     .logos img{
         width: 5.5vw;

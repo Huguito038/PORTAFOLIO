@@ -14,6 +14,7 @@ const Barra = () => {
             <h4 className={stilo.text}>¡Hola! Soy Hugo, un apasionado Full Stack Developer, apasionado en la creación de soluciones tecnológicas innovadoras.
             Mi enfoque se basa en transformar ideas en código, creando aplicaciones web y móviles de alto rendimiento que cautivan a los usuarios.
             </h4>
+            <h4 className={stilo.text2}>Siendo un entusiasta de la tecnología, estoy siempre buscando aprender y mantenerme al día con las últimas tendencias del desarrollo. Estoy emocionado de colaborar en proyectos desafiantes y contribuir al éxito de tu próxima idea innovadora.</h4>
         </div>
     );
 }
