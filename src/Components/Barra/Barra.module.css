@@ -32,10 +32,11 @@
 .text{
     width: 45vw;
     height: auto;
-    margin-top: -15%;
+    margin-top: -17%;
     padding-left: 2%;
     border-left: 0.1vw solid #270b25cb;
-    font-size: 1.3vw;
+    font-size: 1.5vw;
+    letter-spacing: 1px;
     margin-left: 43vw;
     font-family: 'Montserrat', sans-serif;
 }

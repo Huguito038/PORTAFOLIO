@@ -7,9 +7,7 @@ const Barra = () => {
     AOS.init();
     return (
         <div className={stilo.contenedor}>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#8b1577b7" fill-opacity="1" d="M0,192L0,128L130.9,128L130.9,160L261.8,160L261.8,96L392.7,96L392.7,224L523.6,224L523.6,96L654.5,96L654.5,160L785.5,160L785.5,224L916.4,224L916.4,32L1047.3,32L1047.3,160L1178.2,160L1178.2,128L1309.1,128L1309.1,32L1440,32L1440,0L1309.1,0L1309.1,0L1178.2,0L1178.2,0L1047.3,0L1047.3,0L916.4,0L916.4,0L785.5,0L785.5,0L654.5,0L654.5,0L523.6,0L523.6,0L392.7,0L392.7,0L261.8,0L261.8,0L130.9,0L130.9,0L0,0L0,0Z"></path>
-            </svg>
+           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#cc1dbd" fill-opacity="1" d="M0,288L0,96L120,96L120,224L240,224L240,96L360,96L360,192L480,192L480,32L600,32L600,192L720,192L720,224L840,224L840,64L960,64L960,192L1080,192L1080,32L1200,32L1200,128L1320,128L1320,224L1440,224L1440,0L1320,0L1320,0L1200,0L1200,0L1080,0L1080,0L960,0L960,0L840,0L840,0L720,0L720,0L600,0L600,0L480,0L480,0L360,0L360,0L240,0L240,0L120,0L120,0L0,0L0,0Z"></path></svg>
             <h2 data-aos="fade-left"data-aos-duration="1000"className={stilo.titulo}>About Me.</h2>
             <h4 className={stilo.text}>¡Hola! Soy Hugo, un apasionado Full Stack Developer, apasionado en la creación de soluciones tecnológicas innovadoras.
             Mi enfoque se basa en transformar ideas en código, creando aplicaciones web y móviles de alto rendimiento que cautivan a los usuarios.

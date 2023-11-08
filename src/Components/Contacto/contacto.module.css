@@ -58,7 +58,7 @@
         left: 0;
     }
     100% {
-        left: calc(100% - 100px);
+        left: calc(100% - 1vw);
     }
 }
 
@@ -147,12 +147,7 @@
 }
 
 @media (max-width: 1100px) {
-  .titulo{
-    width: 100%;
-    font-size: 7vw;
-    margin-left: 0vw;
-    text-align: center;
-  }
+  
   .barra{
     margin-top: -5vw;
     margin-left: 7.5vw;
@@ -194,6 +189,57 @@
 .contacto a img{
   width: 3vw;
   height: 3vw;
+}
+
+}
+
+@media (max-width: 900px) {
+  .contenedor{
+    height: 100%;
+    background-image: none;
+  }
+  .titulo{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 13vw;
+    width: 100%;
+    text-align: center;
+    margin-left: 0vw;
+}
+.contacto a img{
+  width: 4vw;
+  height: 4vw;
+}
+.contacto a button{
+  width: 25vw;
+  height: 10vw;
+  font-size: 2.2vw;
+  margin-left: 0vw;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.contacto{
+  position: relative;
+  margin-top: -4vw;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 0vw;
+  padding-bottom: 6vw;
+}
+
+
+.contacto a{
+  display: flex;
+  margin-top: 1vw;
+  text-decoration:none;
+  text-align: left;
+  color: white;
+  margin-left: 0vw;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  align-items: center;
+}
+.barra{
+  display: none;
 }
 
 }
