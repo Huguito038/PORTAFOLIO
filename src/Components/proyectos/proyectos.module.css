@@ -203,7 +203,7 @@
         margin: 0;
         width: 100%;
         font-size: 3.7vw;
-        left: -13.5vw;
+        left: 0vw;
     }
     .informacion{
         display: none;
@@ -211,7 +211,7 @@
     .logos{
         position: absolute;
         top: 1vw;
-        left: -30.5vw; 
+        left: -4.5vw; 
     }
     .logos img{
         width: 5.5vw;
@@ -229,7 +229,7 @@
         margin: 0;
         width: 100%;
         font-size: 3.7vw;
-        left: -13.5vw;
+        left: 0vw;
     }
     .informacion2{
         display: none;
@@ -237,7 +237,7 @@
     .logos2{
         position: absolute;
         top: 1vw;
-        left: 23.8vw;
+        left: 22.8vw;
         
     }
     .logos2 img{
