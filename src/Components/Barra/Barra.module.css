@@ -4,7 +4,11 @@
     width: 100%;
     height: 100%;
     position: relative;
+    padding-bottom: 4vw;
+    background-color: #1a1a1a;
+    
 }
+
 
 .titulo{
     font-family: 'Press Start 2P', cursive;
@@ -14,15 +18,15 @@
     margin-left: 15vw;
     text-transform: uppercase;
     z-index: 999;
-    color: #270b25cb;
-    text-shadow: 0  2px  0   #22041db7,
-                    0  4px  0   #8b157b8f,
-                    0  6px  0   #8b15819c, 
-                    0  8px  0   #8b1581, 
-                    0 10px  0   #8b1581,
-                    0 12px  0   #8b1581,
-                    3px 8px 15px rgba(0,0,0,0.1),
-                    3px 8px  5px rgba(0,0,0,0.3);
+    color: #b935b1cb;
+    text-shadow: 0  2px  0   #661d61cb,
+                    0  4px  0   #661d61cb,
+                    0  6px  0   #661d61cb, 
+                    0  8px  0   #661d61cb, 
+                    0 10px  0   #661d61cb,
+                    0 12px  0   #81257bcb,
+                    3px 8px 15px rgba(29, 29, 29, 0.1),
+                    3px 8px  5px rgba(31, 31, 31, 0.3);
                     
    
 }
@@ -32,19 +36,23 @@
 .text{
     width: 45vw;
     height: auto;
-    margin-top: -17%;
+    margin-top: -16%;
     padding-left: 2%;
-    border-left: 0.1vw solid #270b25cb;
+    color: rgb(223, 223, 223);
+    border-left: 0.1vw solid #6e1f69cb;
     font-size: 1.5vw;
     letter-spacing: 1px;
     margin-left: 43vw;
     font-family: 'Montserrat', sans-serif;
 }
 
-
+.pixeles{
+    filter: drop-shadow(2px 2px 10px rgb(0, 0, 0));
+}
 .text2{
     margin-left: 14.8vw;
     width:75vw;
+    color: rgb(218, 218, 218);
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5vw;
     letter-spacing: 1px;

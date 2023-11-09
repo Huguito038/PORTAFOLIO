@@ -13,8 +13,8 @@
 
 .titulo{
     font-family: 'Press Start 2P', cursive;
-    font-size: 5vw;
-    padding-bottom: 5%;
+    font-size: 6vw;
+    padding-bottom: 10%;
     margin-top: -5vw;
     width: 45%;
     margin-left: 15vw;
@@ -85,7 +85,7 @@
 
 .contacto{
     position: absolute;
-    margin-top: -24vw;
+    margin-top: -28vw;
     margin-left: 50vw;
 }
 

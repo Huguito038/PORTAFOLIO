@@ -31,7 +31,6 @@ function App() {
       <div ref={barraRef}>
         <Barra></Barra>
       </div>
-      <BarraRedes></BarraRedes>
       <div ref={skillsRef}>
         <Skills></Skills>
       </div>
