@@ -144,6 +144,10 @@
 
 
 @media (max-width: 900px) {
+  .personaje{
+    width: 10vh;
+    height: 11.5vh;
+  }
   .hugo{
     font-size: 14vw;
     margin-left: 13vw;
