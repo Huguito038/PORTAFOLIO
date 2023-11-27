@@ -148,14 +148,7 @@
 
 @media (max-width: 1100px) {
   
-  .barra{
-    margin-top: -5vw;
-    margin-left: 7.5vw;
-    width: 85vw;
-    margin-bottom: 8vw;
-    height:0.1vw;
-    background-color: #85257ecb;
-}
+
 .contacto{
   position: relative;
   margin-top: -4vw;
@@ -201,7 +194,7 @@
 
   .titulo{
     font-family: 'Press Start 2P', cursive;
-    font-size: 13vw;
+    font-size: 10vw;
     width: 100%;
     text-align: center;
     margin-left: 0vw;
@@ -212,7 +205,7 @@
 }
 .contacto a button{
   width: 25vw;
-  height: 10vw;
+  height: 8vw;
   font-size: 2.2vw;
   margin-left: 0vw;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -224,7 +217,7 @@
   display: flex;
   justify-content: space-around;
   margin-left: 0vw;
-  padding-bottom: 6vw;
+  padding-bottom: 20vw;
 }
 
 
@@ -242,5 +235,25 @@
 .barra{
   display: none;
 }
+.contenedor svg{
+  display: none;
+}
+.titulo{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10vw;
+  padding-bottom: 10%;
+  margin-top: 12vw;
+  
+}
+
+}
+
+@media( max-height: 450px){
+  
+  .personaje{
+    width: 25vh;
+    height: 28vh;
+  }
+    
 
 }

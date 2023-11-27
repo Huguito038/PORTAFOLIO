@@ -126,10 +126,7 @@
       height: 11.5vh;
     }
     .contenedor svg{
-      position: absolute;
-      top: -0.2vh;
-      padding: 0;
-      z-index: 999999;
+      display: none;
     }
     .titulo{
       font-family: 'Press Start 2P', cursive;

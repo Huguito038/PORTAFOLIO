@@ -198,3 +198,37 @@
 }
 
 
+@media( max-height: 450px){
+  .personaje{
+    width: 20vh;
+    height: 22vh;
+  }
+  .hugo{
+    font-size: 8vw;
+    margin-left: 13vw;
+  }
+  .saludo{
+    font-size: 2vw;
+    margin-left: 13vw;
+  }
+  .boton_cv{
+    top: 16%;
+    width: 15vw;
+    height: 4vw;
+    font-size: 1vw;
+  }
+  .lateral section img{
+    width: 3vw;
+   
+  }
+  .lateral{
+    top: 15%;
+  }
+  .saludo2{
+    font-size: 2vw;
+    margin-left: 13vw;
+  }
+  
+
+    
+}
