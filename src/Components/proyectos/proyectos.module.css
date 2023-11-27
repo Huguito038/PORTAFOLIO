@@ -172,7 +172,7 @@
 @media (max-width: 1100px) {
     .titulo{
         font-size: 8vw;
-        margin-top: -3vh;
+        margin-top: 10vh;
         margin-bottom: 10vw;
     }
     .proyecto{
@@ -257,4 +257,11 @@
         width: 7vw; 
     }
 
+    .contenedor svg{
+        position: absolute;
+        top: -0.2vh;
+        z-index: 9999;
+    }
+    
 }
+

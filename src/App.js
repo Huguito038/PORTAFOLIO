@@ -17,14 +17,15 @@ function App() {
   const contactoRef = useRef(null);
 
 
-  const scrollToSection = (ref) => {
+  const scrollToSection = (ref,offset=0) => {
     if (ref && ref.current) {
-      ref.current.scrollIntoView({ behavior: 'smooth' });
+      ref.current.scrollIntoView({ behavior: 'smooth',
+      });
     }
   };
   return (
     <div className='conte'>
-      <Buscador scrollToSection={scrollToSection} barraRef={barraRef} skillsRef={skillsRef} proyectosRef={proyectosRef}contactoRef={contactoRef}homeRef={homeRef}></Buscador>
+      <Buscador scrollToSection={(ref, offset) => scrollToSection(ref, offset)}  barraRef={barraRef} skillsRef={skillsRef} proyectosRef={proyectosRef}contactoRef={contactoRef}homeRef={homeRef}></Buscador>
       <div ref={homeRef}>
         <Principal></Principal>
       </div>

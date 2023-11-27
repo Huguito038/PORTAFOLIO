@@ -18,7 +18,11 @@ const Skills = () => {
     AOS.init();
     return (
         <div className={stilo.contenedor}>
-           <h2 className={stilo.titulo}>My Skills.</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" width="100%">
+    <path fill="#1f1f1f" d="M0,0L480,64L960,0L1440,224L1440,0L960,0L480,0L0,0Z"></path>
+</svg>
+            
+           <h2 className={stilo.titulo}>My skills.</h2>
            <section className={stilo.cont_cards}>
             <div data-aos="flip-left"data-aos-delay="00">
                 <img className={stilo.imgs}src={html} alt="" />
