@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import stilo from "./buscador.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FaUser ,FaBriefcase, FaEnvelope,FaLaptopCode, FaHome } from "react-icons/fa";
+import { FaUser ,FaBriefcase, FaEnvelope,FaLaptopCode, FaHome,} from "react-icons/fa";
 
 
 const Buscador = ({ scrollToSection, barraRef, homeRef, skillsRef, proyectosRef, contactoRef }) => {
@@ -44,11 +44,28 @@ const Buscador = ({ scrollToSection, barraRef, homeRef, skillsRef, proyectosRef,
 
     return (
         <div data-aos="flip-left" data-aos-delay="1000" className={stilo.contenedor}>
-            <a onClick={() => scrollToSection(homeRef)} className={seccionActual === "home" ? stilo.seleccionado : ""}><FaHome /></a>
-            <a onClick={() => scrollToSection(barraRef)}  className={seccionActual === "about" ? stilo.seleccionado : ""}><FaUser /></a>
-            <a onClick={() => scrollToSection(skillsRef)} className={seccionActual === "skills" ? stilo.seleccionado : ""}><FaLaptopCode /></a>
-            <a onClick={() => scrollToSection(proyectosRef)} className={seccionActual === "proyectos" ? stilo.seleccionado : ""}><FaBriefcase /></a>
-            <a onClick={() => scrollToSection(contactoRef)} className={seccionActual === "contact" ? stilo.seleccionado : ""}><FaEnvelope /></a>
+            <a>
+                <FaHome onClick={() => scrollToSection(homeRef)} className={`${stilo.logo} ${seccionActual === "home" ? stilo.seleccionado : ""}`}/>
+                <p>Home</p>
+            </a>
+            <a>
+                <FaUser onClick={() => scrollToSection(barraRef)} className={`${stilo.logo} ${seccionActual === "about" ? stilo.seleccionado : ""}`}/>
+                <p>Sobre mi</p>
+            </a>
+            <a>
+                <FaLaptopCode onClick={() => scrollToSection(skillsRef)} className={`${stilo.logo} ${seccionActual === "skills" ? stilo.seleccionado : ""}`}/>
+                <p>skills</p>
+            </a>
+            <a>
+                <FaBriefcase onClick={() => scrollToSection(proyectosRef)} className={`${stilo.logo} ${seccionActual === "proyectos" ? stilo.seleccionado : ""}`}/>
+                <p>proyectos</p>
+            </a>
+            <a>
+                <FaEnvelope onClick={() => scrollToSection(contactoRef)} className={`${stilo.logo} ${seccionActual === "contact" ? stilo.seleccionado : ""}`}/>
+                <p>contacto</p>
+            </a>
+
+            
         </div>
     );
 }

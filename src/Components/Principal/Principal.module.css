@@ -177,6 +177,74 @@
 
 }
 
+@media (max-width: 900px) {
+  .personaje{
+    width: 10vh;
+    height: 11.5vh;
+  }
+  .hugo{
+    font-size: 14vw;
+    margin-left: 13vw;
+  }
+  .saludo{
+    font-size: 5vw;
+    margin-left: 13vw;
+  }
+  .boton_cv{
+    top: 16%;
+    width: 27vw;
+    height: 5vw;
+    font-size: 1.8vw;
+  }
+  .lateral section img{
+    width: 5vw;
+   
+  }
+  .lateral{
+    top: 15%;
+  }
+  .saludo2{
+    font-size: 5vw;
+    margin-left: 13vw;
+  }
+  
+
+}
+
+@media( min-width: 2600px){
+  .cont{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  .boton_cv{
+    width: 50vh;
+    top: 10%;
+    height: 7vh;
+    font-size: 3vh;
+  }
+  .lateral section img{
+    width: 8vh;
+  }
+  .lateral{
+    top: 10%;
+  }
+  .hugo{
+    font-size: 14vh;
+    margin-left: 13vh;
+  }
+  .saludo{
+    font-size: 5vh;
+    margin-left: 13vh;
+  }
+  .saludo2{
+    font-size: 5vh;
+    margin-left: 13vh;
+    padding-top: 8vh;
+  }
+  
+}
+
 @media( max-width: 450px){
   .cont{
     height: 100vh;
