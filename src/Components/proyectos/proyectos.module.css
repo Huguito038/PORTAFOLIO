@@ -11,12 +11,12 @@
 
 .titulo{
     font-family: 'Press Start 2P', cursive;
-    font-size: 8vw;
+    font-size: 6vw;
     width: 45%;
     margin-top: -13vh;
     margin-left: 15vw;
     text-transform: uppercase;
-    z-index: 999;
+    z-index: 99999;
     color: #270b25cb;
     text-shadow: 0  2px  0   #22041db7,
                     0  4px  0   #8b157b8f,
