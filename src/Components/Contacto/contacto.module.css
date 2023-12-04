@@ -101,6 +101,9 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     align-items: center;
 }
+.contacto a:hover{
+  cursor: url(../../cursor.png),auto;
+}
 
 
 .contacto a img{
@@ -142,7 +145,7 @@
 }
 
 .contacto a button:hover{
-  cursor: pointer;
+  cursor: url(../../cursor.png),auto;
   transform: scale(1.1);
 }
 

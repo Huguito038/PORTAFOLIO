@@ -55,7 +55,8 @@
     height: 9.3vw;
     background-image: url(./fondo.png);
     background-size: cover;
-    transition: 1s ease all;
+   
+  
 }
 
 .imgs{

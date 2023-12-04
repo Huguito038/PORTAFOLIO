@@ -47,6 +47,8 @@
 }
 
 
+
+
 .personaje {
   width: 15vh;
   height: 17vh;
@@ -103,7 +105,7 @@
   padding: 10px;
   &:hover{
     transform: scale(1.5);
-    cursor: pointer;
+    cursor: url(../../cursor.png),auto;
   }
 }
 
@@ -126,7 +128,7 @@
   border-image-slice: 1;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   &:hover{
-    cursor: pointer;
+    cursor: url(../../cursor.png),auto;
   }
 }
 

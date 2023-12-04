@@ -70,7 +70,7 @@
 }
 
 .logo:hover{
-    cursor: pointer;
+    cursor: url(../../cursor.png),auto;
     transform: scale(1.1);
 }
 
