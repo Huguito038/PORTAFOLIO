@@ -2,7 +2,7 @@ import React from "react";
 import stilo from "./Principal.module.css";
 import logo from "./github.png";
 import logo2 from "./linkedin.png";
-import CV from "./CV.pdf";
+import CV from "./CV3.pdf";
 import Bounce from "react-reveal/Bounce";
 import Flip from "react-reveal/Flip";
 import Zoom from "react-reveal/Zoom";
