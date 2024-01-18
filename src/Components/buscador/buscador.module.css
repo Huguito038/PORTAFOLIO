@@ -19,8 +19,8 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     color: #1f1f1f;
     padding: 1vw;
+    border-radius: 30px;
     z-index: 9999;
-    border-radius: 3vw;
     transition: 0.3s ease all;
 }
 
@@ -47,8 +47,8 @@
     padding: 1.2vw;
     padding-right: 3vw;
     width: 100%;
-    border-radius: 3vw;
     right: 0.1vw;
+    border-radius: 30px;
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.3s linear, visibility 0.3s linear;
@@ -70,7 +70,6 @@
 }
 
 .logo:hover{
-    cursor: url(../../cursor.png),auto;
     transform: scale(1.1);
 }
 
@@ -83,7 +82,7 @@
     .contenedor{
         position: fixed;
         overflow: hidden;
-        background: linear-gradient(#d416bbce,#471f92);
+        background:#e017c6;
         border-radius: 0px 0 0 0px;
         display: flex;
         justify-content: space-around;
@@ -105,7 +104,6 @@
 }
 
 .logo:hover{
-    cursor: pointer;
     transform: scale(1);
 }
 .logo{

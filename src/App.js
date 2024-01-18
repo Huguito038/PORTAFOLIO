@@ -6,7 +6,6 @@ import Proyectos from './Components/proyectos/proyectos';
 import Contacto from './Components/Contacto/contacto';
 import { useRef } from 'react';
 import Buscador from './Components/buscador/buscador';
-import BarraRedes from './Components/BarraRedes/BarraRedes';
 
 
 function App() {

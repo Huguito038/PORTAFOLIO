@@ -105,7 +105,7 @@
   padding: 10px;
   &:hover{
     transform: scale(1.5);
-    cursor: url(../../cursor.png),auto;
+   
   }
 }
 
@@ -127,9 +127,8 @@
     linear-gradient(45deg, #f06, #f06, transparent, transparent) 1;
   border-image-slice: 1;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  &:hover{
-    cursor: url(../../cursor.png),auto;
-  }
+  
+  
 }
 
 .boton_cv a:link, a:visited, a:active {
